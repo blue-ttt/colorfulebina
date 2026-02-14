@@ -7,3 +7,12 @@ body{
 h1{
   color:#fff;
 }
+.card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 12px;           /* 角を丸くする */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* ふんわりした影 */
+  overflow: hidden;              /* 画像の角も丸めるため */
+  font-family: sans-serif;
+  transition: transform 0.3s;    /* ホバー時の動きを滑らかに */
+}
