@@ -10,20 +10,22 @@ h1{
 }
 
 .card {
-  width: 300px;
+width: 300px;
   background-color: #fff;
-  border-radius: 12px;           /* 角を丸くする */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* ふんわりした影 */
-  overflow: hidden;              /* 画像の角も丸めるため */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
   font-family: sans-serif;
-  transition: transform 0.3s;    /* ホバー時の動きを滑らかに */
+  transition: transform 0.3s;
   color:#000
 }
 
 .card-container{
-  flex-wrap: wrap;    /* 画面幅が狭い時に折り返す設定 */
+  display: flex;
+  flex-wrap: wrap;      /* 画面幅に合わせて折り返す */
   justify-content: center; /* 中央寄せ */
-  gap: 20px;          /* カード同士の間隔 */
+  gap: 20px;            /* カード同士の隙間 */
+  padding: 20px;
 }
 
 /* ボタンのスタイル */
