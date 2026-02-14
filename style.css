@@ -17,6 +17,7 @@ h1{
   overflow: hidden;              /* 画像の角も丸めるため */
   font-family: sans-serif;
   transition: transform 0.3s;    /* ホバー時の動きを滑らかに */
+  color:#000
 }
 
 .card-container{
